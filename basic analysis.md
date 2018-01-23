@@ -55,7 +55,9 @@
          1. Traditional Remote Control TV
      1. 娱乐系统
      1. 监控、感应设备
-     1. ```<font color='red'>_**门**_</font>```
+     1. ```html
+        <font color='red'>_**门**_</font>
+        ```
      1. 照明 - >可以实现，简单
      1. 节能
      1. 智能厨房
