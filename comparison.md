@@ -1,7 +1,7 @@
 ######几个硬件区别和主要应用方:
-- [x]Arduino Uno;
-- [x]NodeMCU ESP8266;
-- [x]Raspberry Pi;
+- [x] Arduino Uno;
+- [x] NodeMCU ESP8266;
+- [x] Raspberry Pi;
 
 ######传感器主要有：
 1. 温度和湿度传感器（Temperature & Humidity Sensor - DHT11）;
