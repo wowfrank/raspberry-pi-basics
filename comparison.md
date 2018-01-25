@@ -2,7 +2,6 @@
 1. Arduino Uno;
 1. NodeMCU ESP8266;
 1. Raspberry Pi;
-
 传感器主要有：
 1. 温度和湿度传感器（Temperature & Humidity Sensor - DHT11）;
 1. 瓦斯传感器（Gas Sensor - MQ2）;
