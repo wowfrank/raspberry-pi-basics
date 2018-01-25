@@ -9,6 +9,8 @@
 1. 土壤适度传感器（Soil Moisture Sensor）;
 1. 人体热释电红外传感器（PIR Sensor）;
 1. 射频识别读写器（RFID Reader - MFRC 522）;
+1. 指纹识别器（Fingerprint Sensor)；
+1. 声音传感器（Sound Sensor）；
 
 ```php
 <?php
