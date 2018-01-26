@@ -25,7 +25,9 @@ Raspberry Pi的优势：
 * **无需电工专业知识** - 无需像Arduino那般学习专门的编程语言，也无需了解电器的具体参数；
 
 **Raspberry Pi更适合复杂度相对较高的场景；**
+
 Comparison
+
 Parameters | Arduino Uno | Raspberry Pi B+ | ESP-8266
 --- | --- | --- | --- 
 Processor | ATMega328P | Quad-core ARM Cortex A53 | -
