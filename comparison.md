@@ -1,6 +1,5 @@
 ###### 几个硬件区别和主要应用方:
 - [ ] Arduino Uno;
-
 xxxx
 - [x] NodeMCU ESP8266;
 
