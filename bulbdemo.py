@@ -1,4 +1,3 @@
-```python
 import RPi.GPIO as GPIO
 from flask import Flask, render_template, request
 app = Flask(__name__)
@@ -194,4 +193,3 @@ def action(changePin, action):
    return render_template('main.html', **templateData)
 
 if __name__ == "__main__":
-```
