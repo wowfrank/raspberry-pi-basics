@@ -26,7 +26,7 @@ Raspberry Pi的优势：
 
 **Raspberry Pi更适合复杂度相对较高的场景；**
 
-Comparison
+对比
 
 Parameters | Arduino Uno | Raspberry Pi B+ | ESP-8266
 --- | --- | --- | --- 
