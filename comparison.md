@@ -1,9 +1,12 @@
 ###### 几个硬件区别和主要应用方:
 - [ ] Arduino Uno;
+
 xxxx
 - [x] NodeMCU ESP8266;
+
 xxxx
 - [ ] Raspberry Pi;
+
 xxxxx
 
 ###### 传感器主要有：
