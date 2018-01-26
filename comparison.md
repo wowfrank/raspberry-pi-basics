@@ -25,6 +25,21 @@ Raspberry Pi的优势：
 * **无需电工专业知识** - 无需像Arduino那般学习专门的编程语言，也无需了解电器的具体参数；
 
 **Raspberry Pi更适合复杂度相对较高的场景；**
+Comparison
+Parameters | Arduino Uno | Raspberry Pi B+ | ESP-8266
+--- | --- | --- | --- 
+Processor | ATMega328P | Quad-core ARM Cortex A53 | -
+GPU | - | Broadcom VideoCore IV with 400 MHz | -
+Operating Voltage | 5V | 5V | 3.3V
+Clock Speed | 16MHz | 1.2GHz | 26MHz - 52MHz
+system Memory | 2KB | 1GB | <45KB
+Flash Memory | 32 KB | - | up to 128MB
+EEPROM | 1KB | - | - | -
+Communication Supported | IEEE 802.11b/g/n IEEE802.15.1 433RF BLE 4.0 via Shield | IEEE 802.11b/g/n IEEE802.15.1 433RF BLE 4.0 Ethernet Sierial | IEEE 802.11 b/g/n 
+Development Environments | Arduino IDE | Any linux compatible IDE | Arduino IDE, Lua Loader
+Programming Language | Wiring | Python C/C++ Java Scratch Ruby | Wiring, C, C++
+I/O Connectivity | SPI I2C UART GPIO | SPI DSI UART SDIOCSI GPIO | UART, GPIO
+
 ###### 传感器主要有：
 1. 温度和湿度传感器（Temperature & Humidity Sensor - DHT11）;
 1. 瓦斯传感器（Gas Sensor - MQ2）;
