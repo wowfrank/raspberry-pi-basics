@@ -4,3 +4,5 @@ This is an interesting project because it is possible to further extend and we c
 * Temperature monitoring
 * Air quality alert
 * Alarm systems
+
+![IoT Notification Overview](https://www.survivingwithandroid.com/wp-content/uploads/2018/01/IoT_notification_system.gif)
