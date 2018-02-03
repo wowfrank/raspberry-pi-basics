@@ -43,3 +43,26 @@ IoT平台将来将成为一个竞争核心，那么到底什么是IoT平台？
 * 电路板
 
 <img src="Images/80995d1-dsc.png" title="电路图" width="600px">
+
+##### 好，开始配置Raspberry Pi
+
+1. 下载Raspbian镜像，安装
+1. 电源5V
+1. 连接电脑和RASPBERRY PI
+1. 连接LED/感应器（如图）
+1. 启用1-wire kernel模块
+    1. echo "dtoverlay=21-gpio" | sudo tee -a /boot/config.txt
+    1. sudo reboot
+    1. sudo modprobe w1-gpio && sudo modrobe w1_therm(optional)
+1. 找到感应器的文件： ls /sys/bus/w1/devices/ （类似 28-00000393268a)
+1. 测试： cat /sys/bus/w1/devices/28-00000393268a/w1_slave
+   会返回如下结果：
+   ``` linux
+   pi@raspberrypi:~ $ cat /sys/bus/w1/devices/28-0314685df7ff/w1_slave 
+   8f 01 55 00 7f ff 0c 10 a0 : crc=a0 YES
+   8f 01 55 00 7f ff 0c 10 a0 t=24937
+   ```
+##### 在Raspberry Pi上安装DeviceHive
+
+1. 用ssh连接到你的RasPi
+1. 下载最新的python库： 
