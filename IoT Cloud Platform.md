@@ -75,3 +75,10 @@ sudo pip install devicehive
 ```bash
 wget https://github.com/devicehive/devicehive-python/raw/stable/examples/raspi_led_thermo.py
 ```
+1. 用vim或者nano打开下载下来的文件，修改'SERVER_REFRESH_TOKEN'的值（在Admin版面的refresh token值）
+1. 运行： python raspi_led_thermo.py
+
+##### 访问设备
+
+1. 运行代码后，你可以发现设备；
+1. 也可以远程开关；
