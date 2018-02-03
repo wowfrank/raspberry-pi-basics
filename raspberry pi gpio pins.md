@@ -38,4 +38,4 @@ It is also appropriate to note that when the Raspberry Pi 3 is in halt or shutdo
 
 #### EEPROM针
 
-EEPROM是Electrically Erasable Programmable read only memory的缩写（电可擦可编程只读存储器），基本上意味着你不会用到这类针。
+EEPROM是Electrically Erasable Programmable Read Only Memory的缩写（电可擦可编程只读存储器），基本上意味着你不会用到这类针。
