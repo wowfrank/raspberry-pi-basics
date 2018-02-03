@@ -42,4 +42,4 @@ IoT平台将来将成为一个竞争核心，那么到底什么是IoT平台？
 * 510ohm电阻（给LED）和4.7k ohm电阻（给DS18B20）
 * 电路板
 
-<img src="Images/80995d1-dsc.png" title="电路图" width="800px">
+<img src="Images/80995d1-dsc.png" title="电路图" width="600px">
