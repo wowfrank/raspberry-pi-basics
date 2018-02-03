@@ -57,7 +57,7 @@ IoT平台将来将成为一个竞争核心，那么到底什么是IoT平台？
 1. 找到感应器的文件： ls /sys/bus/w1/devices/ （类似 28-00000393268a)
 1. 测试： cat /sys/bus/w1/devices/28-00000393268a/w1_slave
    会返回如下结果：
-   ```
+   
    ```bash
    pi@raspberrypi:~ $ cat /sys/bus/w1/devices/28-0314685df7ff/w1_slave 
    8f 01 55 00 7f ff 0c 10 a0 : crc=a0 YES
@@ -68,3 +68,10 @@ IoT平台将来将成为一个竞争核心，那么到底什么是IoT平台？
 
 1. 用ssh连接到你的RasPi
 1. 下载最新的python库： 
+```bash
+sudo pip install devicehive
+```
+1. 复制下面的代码: 
+```bash
+wget https://github.com/devicehive/devicehive-python/raw/stable/examples/raspi_led_thermo.py
+```
