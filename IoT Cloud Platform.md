@@ -63,13 +63,13 @@ IoT平台将来将成为一个竞争核心，那么到底什么是IoT平台？
 
 1. 用ssh连接到你的RasPi
 1. 下载最新的python库： 
-```bash
-sudo pip install devicehive
-```
+   ```bash
+   sudo pip install devicehive
+   ```
 1. 复制下面的代码: 
-```bash
-wget https://github.com/devicehive/devicehive-python/raw/stable/examples/raspi_led_thermo.py
-```
+   ```bash
+   wget https://github.com/devicehive/devicehive-python/raw/stable/examples/raspi_led_thermo.py
+   ```
 1. 用vim或者nano打开下载下来的文件，修改'SERVER_REFRESH_TOKEN'的值（在Admin版面的refresh token值）
 1. 运行： python raspi_led_thermo.py
 
