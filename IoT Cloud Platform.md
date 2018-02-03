@@ -63,7 +63,7 @@ IoT平台将来将成为一个竞争核心，那么到底什么是IoT平台？
    8f 01 55 00 7f ff 0c 10 a0 : crc=a0 YES
    8f 01 55 00 7f ff 0c 10 a0 t=24937
    ```
-
+```
 ##### 在Raspberry Pi上安装DeviceHive
 
 1. 用ssh连接到你的RasPi
