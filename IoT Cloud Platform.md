@@ -57,13 +57,13 @@ IoT平台将来将成为一个竞争核心，那么到底什么是IoT平台？
 1. 找到感应器的文件： ls /sys/bus/w1/devices/ （类似 28-00000393268a)
 1. 测试： cat /sys/bus/w1/devices/28-00000393268a/w1_slave
    会返回如下结果：
-   
+   ```
    ```bash
    pi@raspberrypi:~ $ cat /sys/bus/w1/devices/28-0314685df7ff/w1_slave 
    8f 01 55 00 7f ff 0c 10 a0 : crc=a0 YES
    8f 01 55 00 7f ff 0c 10 a0 t=24937
    ```
-```
+
 ##### 在Raspberry Pi上安装DeviceHive
 
 1. 用ssh连接到你的RasPi
