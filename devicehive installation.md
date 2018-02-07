@@ -22,4 +22,4 @@
    
 ### Install Apache Kafka
 
-Following instructions listed in ![kafka Quickstart](https://kafka.apache.org/quickstart#quickstart_startserver)
+Following instructions listed in [kafka Quickstart](https://kafka.apache.org/quickstart#quickstart_startserver)
