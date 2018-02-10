@@ -23,3 +23,8 @@
 ### Install Apache Kafka
 
 Following instructions listed in [kafka Quickstart](https://kafka.apache.org/quickstart#quickstart_startserver)
+
+### Install DeviceHive Websocket Proxy
+
+How to install [DeviceHive Websocket Proxy](https://github.com/devicehive/devicehive-ws-proxy)
+
